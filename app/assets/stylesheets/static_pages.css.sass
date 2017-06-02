@@ -1,0 +1,151 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap-sprockets"
+@import "bootstrap"
+
+$accent-color: rgb(180,64,76)
+// $background-color: rgb(225,229,214)
+$secondary-accent-color: #BFB48F //dark tan
+$background-color: #F2EFE9
+$font-color: #252627
+$heading-font: 'Futura', sans-serif
+
+$jumbotron-banner-image: image-url('banner.jpg')
+
+html, body
+  color: $font-color
+  background: $background-color
+  margin: 0
+  height: 100%
+  width: 100%
+
+h1
+  font-family: $heading-font
+  font-size: 3.0em
+
+h2
+  font-family: $heading-font
+  font-size: 2.6em
+
+header
+  text-align: center
+  height: 5em
+  background: rgba(10,10,10, .25)
+  width: 100%
+  z-index: 1000
+  color: white
+  position: absolute
+  h1
+    margin: 12px auto
+
+hr
+  margin: 1em auto
+  border: 0
+  border-top: 1px solid $secondary-accent-color
+
+.accent-color
+  color: $accent-color
+
+.jumbotron
+  height: 100vh
+  width: 100vw
+  display: table-cell
+  vertical-align: middle
+  background-image: $jumbotron-banner-image
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background-position: center
+  background-size: 100%
+  position: relative
+
+
+.jumbotron-content
+  padding-left: 10%
+  padding-right: 10%
+  color: white
+  text-align: center
+
+.photo-credit
+  text-align: right
+  position: absolute
+  bottom: 10px
+  right: 14px
+  a
+    color: white
+
+.section
+  margin-bottom: 2em
+
+.section-header
+  text-align: center
+  margin-top: 2.6em
+  margin-bottom: 1.0em
+
+.feature
+  text-align: justify
+  h3
+    text-align: center
+
+.testimonial
+  margin-top: 3em
+  text-align: center
+  img
+    filter: grayscale(100%)
+
+.form-description
+  padding: 14px 0
+
+form
+  text-align: right
+  font-family: $heading-font
+  color: lightgrey
+  margin-bottom: 50px
+  .form-control
+    margin-top: 10px
+    border-radius: 2px
+  textarea.form-control
+    resize: none
+    height: 200px
+  .form-status
+    text-align: left
+    color: $accent-color
+    font: $heading-font
+  #name-input
+    padding-right: 5px
+  #email-input
+    padding-left: 5px
+
+.btn
+  background: $secondary-accent-color
+  font-family: $heading-font
+  color: white
+  border-radius: 0px
+  min-width: 140px
+  &:hover
+    color: $accent-color
+
+.multiline-heading
+  line-height: 1.3em
+
+.spacer-dot
+  background: $secondary-accent-color
+  width: 30px
+  height: 30px
+  margin-top: 40px
+  margin-bottom: -15px
+
+@media only screen and (max-width : 992px) 
+  form
+    #name-input
+      padding-right: 15px
+
+    #email-input
+      padding-left: 15px
+  
+  .btn
+    height: 50px
+
+  .jumbotron
+    background-size: auto 100%
