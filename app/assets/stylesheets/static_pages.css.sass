@@ -59,8 +59,11 @@ hr
   background-position: center
   background-size: 100%
   position: relative
-  @media (max-width: $iphone-screen)
+  @media (max-width: $iphone-screen) and (orientation:portrait)
     background-attachment: scroll
+  @media (max-width: $iphone-screen) and (orientation:landscape)
+    background-attachment: scroll
+    background-size: 100% auto !important
 
 
 .jumbotron-content
@@ -124,7 +127,8 @@ form
   font-family: $heading-font
   color: white
   border-radius: 0px
-  min-width: 140px
+  width: 140px
+  min-width: 100px
   &:hover
     color: $accent-color
 
