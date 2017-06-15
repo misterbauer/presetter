@@ -11,7 +11,7 @@ $secondary-accent-color: #BFB48F //dark tan
 $background-color: #F2EFE9
 $font-color: #252627
 $heading-font: 'Futura', sans-serif
-
+$iphone-screen: 375px
 $jumbotron-banner-image: image-url('banner.jpg')
 
 html, body
@@ -59,6 +59,8 @@ hr
   background-position: center
   background-size: 100%
   position: relative
+  @media (max-width: @iphone-screen)
+    background-attachment: scroll
 
 
 .jumbotron-content
