@@ -10,7 +10,7 @@ class ContactForm < MailForm::Base
   def headers
     {
       :subject => "Preset Installer Inquiry",
-      :to => ENV["GMAIL_USERNAME"],
+      :to => ENV["DESTINATION_EMAIL"],
       :from => %("#{name}" <#{email}>)
     }
   end
