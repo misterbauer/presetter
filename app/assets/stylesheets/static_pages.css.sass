@@ -11,7 +11,7 @@ $secondary-accent-color: #BFB48F //dark tan
 $background-color: #F2EFE9
 $font-color: #252627
 $heading-font: 'Futura', sans-serif
-$iphone-screen: 700px
+$iphone-screen: 736px
 $jumbotron-banner-image: image-url('banner.jpg')
 
 html, body
@@ -53,18 +53,21 @@ hr
   width: 100vw
   display: table-cell
   vertical-align: middle
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
   background-image: $jumbotron-banner-image
   background-repeat: no-repeat
   background-attachment: fixed
   background-position: center
-  background-size: 100%
   position: relative
-  @media (max-width: $iphone-screen) and (orientation:portrait)
+  @media (max-width: $iphone-screen)
     background-attachment: scroll
   @media (max-width: $iphone-screen) and (orientation:landscape)
-    background-attachment: scroll
     background-size: 100% auto !important
-
+  @media (max-width: $iphone-screen) and (orientation:portrait)
+    background-size: auto 100% !important
 
 .jumbotron-content
   padding-left: 10%
@@ -127,7 +130,6 @@ form
   font-family: $heading-font
   color: white
   border-radius: 0px
-  width: 140px
   min-width: 100px
   &:hover
     color: $accent-color
@@ -142,6 +144,7 @@ form
   margin-top: 40px
   @media (max-width: $iphone-screen)
     margin-top: 20px
+    margin-bottom: -40px
   margin-bottom: -15px
 
 @media only screen and (max-width : 992px) 
@@ -154,6 +157,3 @@ form
   
   .btn
     height: 50px
-
-  .jumbotron
-    background-size: auto 100%
