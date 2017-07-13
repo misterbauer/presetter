@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   force_ssl if: :ssl_configured?
-  before_action :prepare_meta_tags, if: "request.get?"
+  before_action :prepare_meta_tags
 
   def ssl_configured?
     !Rails.env.development?
