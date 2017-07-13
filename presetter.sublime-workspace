@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border-radius"
+			],
+			[
 				"A",
 				"APP_SUPPORT_DIRECTORY"
 			],
@@ -84,64 +88,10 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 566,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 263,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_contact_form.html.erb",
-			"settings":
-			{
-				"buffer_size": 1298,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 2003,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 538,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_features.html.erb",
-			"settings":
-			{
-				"buffer_size": 1146,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_pitch.html.erb",
-			"settings":
-			{
-				"buffer_size": 274,
+				"buffer_size": 468,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -150,16 +100,16 @@
 			"file": "app/assets/stylesheets/static_pages.css.sass",
 			"settings":
 			{
-				"buffer_size": 3106,
-				"encoding": "UTF-8",
+				"buffer_size": 3398,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/layouts/_landing.html.erb",
+			"file": "app/controllers/application_controller.rb",
 			"settings":
 			{
-				"buffer_size": 302,
+				"buffer_size": 98,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -224,23 +174,36 @@
 		"/Users/joebauer/Developer/Presetter/app",
 		"/Users/joebauer/Developer/Presetter/app/assets",
 		"/Users/joebauer/Developer/Presetter/app/assets/stylesheets",
-		"/Users/joebauer/Developer/Presetter/app/controllers/concerns",
+		"/Users/joebauer/Developer/Presetter/app/controllers",
+		"/Users/joebauer/Developer/Presetter/app/helpers",
 		"/Users/joebauer/Developer/Presetter/app/views",
 		"/Users/joebauer/Developer/Presetter/app/views/layouts",
 		"/Users/joebauer/Developer/Presetter/app/views/static_pages",
-		"/Users/joebauer/Developer/Presetter/config"
+		"/Users/joebauer/Developer/Presetter/config",
+		"/Users/joebauer/Developer/Presetter/config/environments"
 	],
 	"file_history":
 	[
-		"/Users/joebauer/Developer/Presetter/config/environments/development.rb",
+		"/Users/joebauer/Library/Application Support/Adobe/Lightroom/Develop Presets/Phil Chester Presets/PC-X2.lrtemplate",
 		"/Users/joebauer/Developer/Presetter/app/assets/stylesheets/static_pages.css.sass",
-		"/Users/joebauer/Developer/Presetter/config/environments/production.rb",
-		"/Users/joebauer/Developer/Presetter/app/views/static_pages/home.html.erb",
-		"/Users/joebauer/Developer/Presetter/config/application.rb",
+		"/Users/joebauer/Developer/Presetter/app/views/layouts/_landing.html.erb",
+		"/Users/joebauer/Developer/Presetter/app/views/layouts/_features.html.erb",
 		"/Users/joebauer/Developer/Presetter/app/models/contact_form.rb",
-		"/Users/joebauer/Developer/Presetter/app/views/layouts/_pitch.html.erb",
-		"/Users/joebauer/Developer/Presetter/config/database.yml",
+		"/Users/joebauer/Developer/Presetter/config/environments/production.rb",
+		"/Users/joebauer/Developer/Presetter/config/environments/development.rb",
+		"/Users/joebauer/Developer/Presetter/config/environments/test.rb",
 		"/Users/joebauer/Developer/Presetter/config/local_env.yml",
+		"/Users/joebauer/Developer/Presetter/app/assets/stylesheets/application.css.sass",
+		"/Users/joebauer/Developer/Presetter/app/views/static_pages/home.html.erb",
+		"/Users/joebauer/Developer/Presetter/app/views/layouts/_navigation.html.erb",
+		"/Users/joebauer/Developer/Presetter/Gemfile",
+		"/Users/joebauer/Developer/Presetter/.gitignore",
+		"/Users/joebauer/Developer/Presetter/config/routes.rb",
+		"/Users/joebauer/Developer/Presetter/app/views/layouts/_contact_form.html.erb",
+		"/Users/joebauer/Developer/Presetter/app/views/layouts/application.html.erb",
+		"/Users/joebauer/Developer/Presetter/app/views/layouts/_pitch.html.erb",
+		"/Users/joebauer/Developer/Presetter/config/application.rb",
+		"/Users/joebauer/Developer/Presetter/config/database.yml",
 		"/Users/joebauer/Developer/Push_To_Cloud/app/views/meters/index.html.erb",
 		"/Users/joebauer/Developer/Push_To_Cloud/app/views/meters/_meter.json.jbuilder",
 		"/Users/joebauer/Developer/Push_To_Cloud/app/controllers/meters_controller.rb",
@@ -267,23 +230,15 @@
 		"/Users/joebauer/Developer/Push_To_Cloud/db/migrate/20170420214925_create_records.rb",
 		"/Users/joebauer/Developer/Push_To_Cloud/db/migrate/20170420222832_add_meter_to_record.rb",
 		"/Users/joebauer/Developer/Push_To_Cloud/Gemfile",
-		"/Users/joebauer/Developer/Presetter/app/views/layouts/_features.html.erb",
 		"/Users/joebauer/Developer/Push_To_Cloud/test/test_helper.rb",
 		"/Users/joebauer/Developer/Push_To_Cloud/db/migrate/20170419210232_create_meters.rb",
-		"/Users/joebauer/Developer/Presetter/app/views/layouts/_contact_form.html.erb",
 		"/Users/joebauer/Developer/Presetter/app/views/layouts/_testimonials.html.erb",
-		"/Users/joebauer/Developer/Presetter/config/routes.rb",
 		"/Users/joebauer/Developer/Presetter/app/controllers/static_pages_controller.rb",
 		"/Users/joebauer/Developer/Presetter/app/views/shared/_error_messages.html.erb",
 		"/Users/joebauer/Developer/Presetter/app/controllers/contact_form_controller.rb",
-		"/Users/joebauer/Developer/Presetter/Gemfile",
-		"/Users/joebauer/Developer/Presetter/app/assets/stylesheets/application.css.sass",
 		"/Users/joebauer/Downloads/NCM to NAE Site Suggestions.txt",
 		"/Users/joebauer/Developer/Presetter/app/assets/stylesheets/down_arrow.css.sass",
 		"/Users/joebauer/Developer/Presetter/app/assets/javascripts/application.js",
-		"/Users/joebauer/Developer/Presetter/app/views/layouts/application.html.erb",
-		"/Users/joebauer/Developer/Presetter/app/views/layouts/_navigation.html.erb",
-		"/Users/joebauer/Developer/Presetter/app/views/layouts/_landing.html.erb",
 		"/Users/joebauer/Developer/Presetter/app/views/layouts/_testamonials.html.erb",
 		"/Users/joebauer/Developer/Presetter/app/assets/stylesheets/down_arrow.scss",
 		"/Users/joebauer/Developer/Presetter/app/views/static_pages/clients.html.erb",
@@ -311,7 +266,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -326,6 +281,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"JoeBauer777@gmail.com",
+			"ENV[\"GMAIL_",
+			"radi",
 			"2",
 			"8",
 			"joebauer777",
@@ -365,7 +323,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			"",
@@ -382,140 +340,24 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 566,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								325,
-								325
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/routes.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 263,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								101,
-								101
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/layouts/_contact_form.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1298,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								513,
-								513
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Gemfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2003,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1452,
-								1452
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 227.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "app/views/layouts/application.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 538,
+						"buffer_size": 468,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								509,
-								509
+								107,
+								107
 							]
 						],
 						"settings":
@@ -526,114 +368,18 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/views/layouts/_features.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								153,
-								153
-							],
-							[
-								471,
-								471
-							],
-							[
-								813,
-								813
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/layouts/_pitch.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 274,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								191,
-								191
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/assets/stylesheets/static_pages.css.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3106,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1952,
-								1952
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 975.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "app/views/layouts/_landing.html.erb",
+					"buffer": 1,
+					"file": "app/assets/stylesheets/static_pages.css.sass",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 302,
+						"buffer_size": 3398,
 						"regions":
 						{
 						},
@@ -646,13 +392,43 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/application_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
